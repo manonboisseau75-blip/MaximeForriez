@@ -1,0 +1,6 @@
+services:
+  python:
+    restart: always
+    build: ./
+    volumes:
+      - "./src:/application"
