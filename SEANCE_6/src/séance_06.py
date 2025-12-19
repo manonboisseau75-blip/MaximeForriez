@@ -64,7 +64,7 @@ taille_ord = ordreDecroissant((list(iles['Surface (km²)']) + [85543323.0,378568
 #Visualisation de la loi rang-taille
 plt.plot(range(len(taille_ord)),conversionLog(taille_ord))
 plt.show()
-# On peut surement faire des tests mais je vois pas ce que vous voulez dire
+# On peut faire des tests mais je ne vois pas lesquelles on peut faire
 
 #PARTIE SUR LES POPULATIONS DES ETATS DU MONDE
 #Source. Depuis 2007, tous les ans jusque 2025, M. Forriez a relevé l'intégralité du nombre d'habitants dans chaque États du monde proposé par un numéro hors-série du monde intitulé États du monde. Vous avez l'évolution de la population et de la densité par année.
